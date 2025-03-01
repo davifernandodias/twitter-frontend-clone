@@ -10,7 +10,7 @@ import { Icon } from '@iconify/react';
 
 const BottomNav = () => {
   const scrollDirection = useScrollingEffect(); 
-  const navClass = scrollDirection === 'up' ? '' : 'opacity-25 duration-500';
+  const navClass = scrollDirection === 'up' ? '' : ' opacity-25 duration-500';
 
   const {
     isHomeActive,
@@ -23,7 +23,7 @@ const BottomNav = () => {
     <div
       className={`fixed bg-black text-white bottom-0 w-full py-4 z-10 border-t  shadow-lg sm:hidden ${navClass}`}
     >
-      <div className="flex flex-row justify-around items-center bg-transparent w-full">
+      <div className="flex flex-row justify-around items-center bg-transparent  w-full">
         <Link href="/" className="flex items-center relative">
           {isHomeActive ? (
             <Icon icon="mingcute:home-5-fill" width="32" height="32" />
