@@ -1,9 +1,9 @@
-import { Button } from "@/components/ui/button";
+import FeedPage from "@/pages/home-page";
 
 export default function Home() {
   return (
     <div>
-      <Button>oiii</Button>
+      <FeedPage />
     </div>
       
   );
