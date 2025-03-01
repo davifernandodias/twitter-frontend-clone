@@ -7,7 +7,7 @@ export default function Header() {
 
   return (
     <header>
-      <div className="flex flex-col gap-8 px-4">
+      <div className="flex flex-col gap-8 px-4 text-white">
         <nav className="flex justify-between items-center py-4">
           <div>
             <p>foto de perfil</p>
