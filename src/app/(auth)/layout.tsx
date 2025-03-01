@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
-import "./globals.css";
+import "../globals.css";
+import Header from "@/components/header";
+import BottomNav from "@/components/bottom-nav";
 
 
 
@@ -15,9 +17,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-      >
+      <body>
+       <Header />
         {children}
+        <BottomNav />
       </body>
     </html>
   );
